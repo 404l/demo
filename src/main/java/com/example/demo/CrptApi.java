@@ -35,23 +35,23 @@ public class CrptApi {
     private static class Product {
 
         @JsonProperty("certificate_document")
-        String certificate_document;
+        String certificateDocument;
         @JsonProperty("certificate_document_date")
-        Date certificate_document_date;
+        Date certificateDocumentDate;
         @JsonProperty("certificate_document_number")
-        String certificate_document_number;
+        String certificateDocumentNumber;
         @JsonProperty("owner_inn")
-        String owner_inn;
+        String ownerInn;
         @JsonProperty("producer_inn")
-        String producer_inn;
+        String producerInn;
         @JsonProperty("production_date")
-        Date production_date;
+        Date productionDate;
         @JsonProperty("tnved_code")
-        String tnved_code;
+        String tnvedCode;
         @JsonProperty("uit_code")
-        String uit_code;
+        String uitCode;
         @JsonProperty("uitu_code")
-        String uitu_code;
+        String uituCode;
 
     }
 
@@ -62,27 +62,27 @@ public class CrptApi {
         @JsonProperty("description")
         Object description;
         @JsonProperty("doc_id")
-        String doc_id;
+        String docId;
         @JsonProperty("doc_status")
-        String doc_status;
+        String docStatus;
         @JsonProperty("doc_type")
-        String doc_type;
+        String docType;
         @JsonProperty("importRequest")
         String importRequest;
         @JsonProperty("owner_inn")
-        String owner_inn;
+        String ownerInn;
         @JsonProperty("participant_inn")
-        String participant_inn;
+        String participantInn;
         @JsonProperty("producer_inn")
-        String producer_inn;
+        String producerInn;
         @JsonProperty("production_date")
-        Date production_date;
+        Date productionDate;
         @JsonProperty("production_type")
-        String production_type;
+        String productionType;
         @JsonProperty("reg_date")
-        Date reg_date;
+        Date regDate;
         @JsonProperty("reg_number")
-        String reg_number;
+        String regNumber;
         @JsonProperty("products")
         List<Product> products;
     }
